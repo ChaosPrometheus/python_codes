@@ -4,7 +4,7 @@ import pynvml
 pynvml.nvmlInit()
 device_count = pynvml.nvmlDeviceGetCount()
 
-bot = telebot.TeleBot("5941862271:AAHrXG2BYJXyDmYaXefVpFxDdsQvCqnVI9I")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start'])
 def welcome(message):

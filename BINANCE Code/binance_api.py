@@ -4,8 +4,8 @@ import json
 import hmac
 import hashlib
 
-api_key = 'eebO4tSpYJ5S5QbsFQ9qqyn1zKa278pBYL2jH0YG1W86i63OVkaMFEIu13mm8o3X'
-api_secret = 'pEV9aHafKmnZNiPybsthzjXjy16KthODnvItx2s33iVOT6sy1YggwolheETqQvgg'
+api_key = ''
+api_secret = ''
 base_url = 'https://api.binance.com'
 
 endpoint = '/api/v3/account'
